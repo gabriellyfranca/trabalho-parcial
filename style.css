@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #60B888;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+}
+img{
+    display: inline;
+    border-radius: 100px;
+}
+
+.conteiner{
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.conteiner2{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#tituloFilme{
+    font-size: 30px;
+}
+
+#descFilme{
+    text-align: center;
+    margin: 10px 20px 0 20px;
+    font-size: 20px;
+}
+
+.conteiner2{
+    display: none;
+    align-items: center;
+    width: 390px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.conteiner2:hover{
+    cursor: pointer;
+}
+
+#barradepesquisa{
+    box-sizing: border-box;
+    color: rgb(8, 10, 10);
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 15px;
+    width: 340px;
+    height: 50px;
+}
+
+#botao{
+    font-size: 30px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#botao:hover{
+    cursor: pointer;
+}
+
+.footer {
+    bottom:0;
+    width:100%;
+    margin: 20px;
+    color: #082027;
+    margin-top: 10%;
+}
